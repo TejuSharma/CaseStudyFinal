@@ -7,8 +7,7 @@
 <title>Index Page</title>
 </head>
 <body>
-	
-	<a href="viewrequest">View Requests</a><br><br>
-	<a href="trainerform">Add Trainer details</a>
+		<a href="viewlist">View Trainer list</a>
+		<a href="trainingform">Training Status</a>
 </body>
 </html>

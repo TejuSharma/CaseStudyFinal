@@ -3,7 +3,7 @@
 
 
 <h1>Update Request Details</h1>
-<form:form method="post" action="/CaseStudy1/editsave" >
+<form:form method="post" action="/CaseStudy2/editsave" >
 	<table>
 	    <tr>
 	      <td></td>

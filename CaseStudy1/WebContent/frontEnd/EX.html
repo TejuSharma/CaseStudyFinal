@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="bootstrap.css">
 <script src="bootstrap.js"></script>
 <script src="jquery.js"></script>
-<script src="validate.js"></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -32,24 +31,23 @@
 	<div class="container-fluid">
 		<div class="jumbotron" style="">
 			<div>
-				<form class="form-horizontal" name="login" method="post">
+				<form class="form-horizontal">
 					<div class="form-group">
 						<label class="control-label col-sm-4">Email ID:</label>
 						<div class="col-sm-4">
 							<input type="email" class="form-control" name="frame"
-								placeholder="Enter your email ID" required>
+								placeholder="Enter your email ID">
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-sm-4">Password:</label>
 						<div class="col-sm-4">
 							<input type="password" class="form-control" name="pwd"
-								placeholder="Enter password" pattern="(?=.\d)(?=.*[a-z])(?=.*[A-Z].{8,}" 
-								title="Must contain atleast 8 or more charecters" required>
+								placeholder="Enter password">
 							<div class="col-md-10">
 								<div class="form-group">
 									<div class="control-label col-sm-10"><br>
-										<input type="submit" class="btn btn-primary" value="submit" onsubmit="">
+										<input type="submit" class="btn btn-primary" value="submit">
 									</div>
 								</div>
 							</div>
